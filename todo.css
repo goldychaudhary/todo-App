@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.todos-bg-container {
+    background-color: #FAF5F0;
+    height: 100vh;
+}
+
+.todos-heading {
+    color: #B99279;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 46px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.create-task-heading {
+    color: #B99279;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.create-task-heading-subpart {
+    color: #C7AA94;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.todo-items-heading {
+    color: #B99279;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.todo-items-heading-subpart {
+    color: #C7AA94;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.todo-items-container {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.todo-item-container {
+    margin-top: 15px;
+}
+
+.todo-user-input {
+    color: #B99279;
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B99279;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.add-todo-button {
+    color: #5E4231;
+    background-color: #C7AA94;
+    font-family: "Roboto";
+    font-size: 12px;
+    border-width: 0px;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+button:hover {
+    background-color: #B99579;
+    transition: 0.4s;
+}
+
+button:focus {
+    outline-color: transparent;
+    outline-style: solid;
+}
+
+input:focus {
+    outline-color: transparent;
+    outline-style: solid;
+}
+
+input:active {
+    background-color: white;
+}
+
+.label-container {
+    color: #5C4759;
+    background-color: #E4DCE3;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #5E4231;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+}
+
+.delete-icon {
+    padding: 15px;
+}
+
+.checked {
+    text-decoration: line-through;
+
+}
